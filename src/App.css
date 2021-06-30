@@ -3,5 +3,9 @@
 }
 
 .ui.main.button{
-  margin-top: 60em;
+  margin-top: 50em;
+}
+
+.ui.main.container{
+  margin-top: 3em;
 }

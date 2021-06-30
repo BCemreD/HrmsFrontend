@@ -5,20 +5,20 @@ export default function Dashboard() {
     return (
         <div>
             <Segment inverted>
-                <Button inverted>Standard</Button>
+                <Button inverted>Menu</Button>
                 <Button inverted color='red'>
-                    Red
+                    Job Postings
                 </Button>
                 <Button inverted color='orange'>
-                    Orange
+                    Job Positions
                 </Button>
                 <Button inverted color='yellow'>
-                    Yellow
+                    Job Titles
                 </Button>
                 <Button inverted color='olive'>
-                    Olive
+                    Candidates
                 </Button>
-                <Button inverted color='green'>
+                {/* <Button inverted color='green'>
                     Green
                 </Button>
                 <Button inverted color='teal'>
@@ -44,7 +44,7 @@ export default function Dashboard() {
                 </Button>
                 <Button inverted color='black'>
                     Black
-                </Button>
+                </Button> */}
             </Segment>
         </div>
     )
